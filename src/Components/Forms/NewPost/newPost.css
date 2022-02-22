@@ -1,0 +1,11 @@
+.newPostForm select {
+  position: relative;
+  left: 0;
+  margin: 0;
+}
+.newPostForm label {
+  color: black;
+}
+.newPostForm button {
+  width: 12vw;
+}

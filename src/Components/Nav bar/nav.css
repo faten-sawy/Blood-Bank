@@ -1,0 +1,243 @@
+
+/* .nav {
+  height: 10vh;
+  width: 100%;
+  background-color: #3B3F51;
+  position: relative;
+}
+
+.nav > .nav-header {
+  display: inline;
+}
+
+.nav > .nav-header > .nav-title {
+  display: inline-block;
+  font-size: 4rerem;
+  color: #fff;
+  padding: 10px 10px 10px 10px;
+}
+
+.nav > .nav-btn {
+  display: none;
+}
+
+.nav > .nav-links {
+  display: inline;
+  float: right;
+  font-size: 1rem;
+}
+
+.nav > .nav-links > a {
+  display: inline-block;
+  padding: 13px 10px 13px 10px;
+  text-decoration: none;
+  color: #efefef;
+}
+
+.nav > .nav-links > a:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.nav > #nav-check {
+  display: none;
+}
+
+@media (max-width:600px) {
+  .nav > .nav-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+  .nav > .nav-btn > label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+  }
+  .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  .nav > .nav-btn > label > span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid #eee;
+  }
+  .nav > .nav-links {
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-color: #333;
+    height: 0px;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: 50px;
+    left: 0px;
+  }
+  .nav > .nav-links > a {
+    display: block;
+    width: 100%;
+  }
+  .nav > #nav-check:not(:checked) ~ .nav-links {
+    height: 0px;
+  }
+  .nav > #nav-check:checked ~ .nav-links {
+    height: calc(100vh - 50px);
+    overflow-y: auto;
+  }
+} */
+
+
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@400;500&display=swap");
+@import url("https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&display=swap');
+
+
+
+@import "https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap";
+.navSection {
+  width:100vw;
+  height: 10vh;
+  background-color: #202F34;
+
+}
+.navSection h1 {
+  font-family: 'Fuggles', cursive;
+  color:white
+
+}
+nav {
+  width: 100vw;
+  border-radius: 30px;
+ text-align: center;
+
+   box-shadow:  #eee7e7;
+}
+ nav label {
+    width: 12vw;
+    font-size: 1rem;
+    font-weight: 900;
+    border-radius: 5px;
+    color: white;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: Fuggles cursive;
+ }
+ nav button{
+   background-color: red;
+ }
+ .dropdown-toggle {
+   width:0vw;
+   background-color: none;
+   background: none;
+   border:none
+ }
+ .dropdown-toggle:hover{
+  background-color: none;
+  background: none;
+  border:none;
+  box-shadow: none
+ }
+ .dropdown-toggle:focus{
+  background-color: none;
+  background: none;
+  border:none;
+  box-shadow: none
+ }
+ .dropdown-toggle:active{
+  background-color: none;
+  background: none;
+  border:none;
+  box-shadow: none
+ }
+ .dropdown-toggle:enabled{
+  background-color: none;
+  background: none;
+  border:none;
+  box-shadow: none
+ }
+
+@media (max-width: 480px){
+  nav label{
+    font-size: 14px;
+  }
+  
+}
+@media (max-width: 370px){
+  nav label{
+  margin: 0 14px;
+  width:2vw
+  }
+}
+.rightNav{
+  height: 3vh;
+}
+
+.navSections
+nav label:hover {
+  color: #444;
+}
+nav label i {
+  margin-right: 4px;
+}
+
+
+#home:checked ~ nav label.home {
+    color: #fff;
+  }
+     
+#blog:checked ~ nav label.blog {
+    color: #fff;
+  }
+  #blog:checked ~ nav label.blog .slider {
+    left: 20%;
+  }
+    
+ #code:checked ~ nav label.code {
+      color: #fff;
+    }
+  #code:checked ~ nav label.code .slider {
+    left: 40%;
+  }
+     
+#help:checked ~  nav label.help {
+    color: #fff;
+  }
+  #help:checked ~  nav label.help  .slider {
+    left: 60%;
+  }
+    
+#about:checked ~ nav label.about {
+          color: #fff;
+        }
+#about:checked ~ nav label.about .slider {
+  left: 80%;
+}
+@media (max-width: 700px){
+  nav {
+    width: 100vw;
+  height: 60px;
+  border-radius: 0px;
+
+  }
+  
+  nav::before {
+    content: "";
+    background: #fff;
+    width: 100%;
+    z-index: -2;
+    position: absolute;
+  }
+}
+
+
+
+::selection {
+  background: #ffffff60;
+  color: #fff;
+}

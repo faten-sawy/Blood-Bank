@@ -1,0 +1,29 @@
+.type {
+  font-family: "El Messiri", sans-serif;
+  font-size: 6rem;
+  width: 40vw;
+ /*  margin-top: 50px;
+  padding-top: 20px;
+  margin-left: 6%; */
+  font-weight: 200;
+  height: 50vh;
+  position:relative;
+  left:35%;
+  top: 40%
+}
+.headerSection{
+  width:100vw;
+  height: 100vh;
+ 
+}
+@media only screen and (max-width: 856px) {
+  .type {
+    width: 100vw;
+    /* margin-top: 35%; */ 
+  }
+}
+@media only screen and (max-width: 506px) {
+  .type {
+    font-size: 4rem;
+  }
+}

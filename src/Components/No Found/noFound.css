@@ -1,0 +1,11 @@
+.no-found{
+    color: #e8e8e4;
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 600;
+}
+.no-found-img{
+    width:50vw;
+    height: 40vh;
+
+}

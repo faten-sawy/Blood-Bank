@@ -1,0 +1,361 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  background: url(https://realtorsusieknowspdx.files.wordpress.com/2021/01/blog-cover-2.png)
+    no-repeat center center fixed;
+  width: 100vw;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  height: 100vh;
+}
+.alert{
+  width:20vw
+}
+.overlayLogin {
+  /*  width: 100vw;
+  height: 100vh; */
+  /* background-color: bisque; */
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.content__input--loginForm {
+  display: flex;
+  flex-direction: column;
+  width: 10vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.content__input--loginForm > label > input {
+  box-sizing: border-box;
+  font-family: "Inter";
+  width: 20vw;
+  height: 40px;
+  margin-bottom: 30px;
+  padding-left: 20px;
+  border: 0.5px solid #cfdbd5;
+  border-radius: 13px;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: black;
+  outline: none;
+  margin-right: 30px;
+}
+
+.content__input--loginForm > label > input::placeholder {
+  color: black;
+  font-size: 14px;
+}
+
+.content__submit > .loginButton {
+  height: 7vh;
+  width: 300px;
+  border: none;
+  /* border-radius: 13px; */
+  margin-bottom: 30px;
+  font-family: "Inter";
+  font-weight: bold;
+  font-size: 1.5rem;
+  background-color: #ba181b;
+  color: whitesmoke;
+}
+
+.content__submit > .google-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #4385f5;
+  color: black;
+  overflow: hidden;
+}
+
+.google-button__google-icon {
+  background-color: black;
+  background-image: url("https://img.icons8.com/color/50/000000/google-logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 35px;
+  height: 100%;
+  width: 20%;
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+.content__submit--line {
+  width: 10%;
+  height: 1px;
+  background-color: black;
+  margin-bottom: 12px;
+}
+
+.content__submit > p,
+.content__footer p {
+  font-weight: 400;
+  width: 30vh;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.content__footer p {
+  font-size: 13px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+@media screen and (max-width: 800px) {
+  .loginContainer {
+    margin: 0px 20px;
+  }
+
+  .content__input--loginForm {
+    /* margin-top: 80px; */
+    align-items: center;
+  }
+
+  .content__submit {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .content__footer {
+    margin-top: 100px;
+  }
+}
+.content__input--loginForm > h1 {
+  color: white;
+  margin-bottom: 70px;
+  text-align: center;
+}
+@media screen and (min-width: 801px) {
+  .loginContainer__content {
+    margin-top: 6%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: flex;
+   
+    position: relative;
+    left: 35%;
+    width: 30vw;
+    height: 70vh;
+    border: 0.3px solid #cfdbd5;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
+  .content__loginInputs {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    width: 30vw;
+    height: 100%;
+    transform: translate(0, 5%);
+    margin-left: 25px;
+  }
+
+  .content__submit {
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background: linear-gradient(to bottom, #db2b39 0%, #023047 100%); */
+    /* border-left: 1px solid black; */
+  }
+
+  .content__footer {
+    width: 90%;
+  }
+}
+/* ********************************************************************************************** */
+
+.items {
+  width: 17vw;
+  margin: 0;
+}
+.content__submit span {
+  color: #ba181b;
+  margin-left: 10px;
+}
+
+/* @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.content__input--loginForm {
+  display: flex;
+  flex-direction: column;
+  width: 10vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.content__input--loginForm > label > input {
+  box-sizing: border-box;
+  font-family: "Inter";
+  width: 20vw;
+  height: 40px;
+  margin-bottom: 30px;
+  padding-left: 20px;
+  border: 0.5px solid #cfdbd5;
+  border-radius: 13px;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: black;
+  outline: none;
+  margin-right: 30px;
+}
+
+.content__input--loginForm > label > input::placeholder {
+  color: black;
+  font-size: 14px;
+}
+
+.content__submit > .loginButton {
+  height: 7vh;
+  width: 300px;
+  border: none;
+  margin-bottom: 30px;
+  font-family: "Inter";
+  font-weight: bold;
+  font-size: 1.5rem;
+  background-color: #ba181b;
+  color: whitesmoke;
+}
+
+.content__submit > .google-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #4385f5;
+  color: black;
+  overflow: hidden;
+}
+
+.google-button__google-icon {
+  background-color: black;
+  background-image: url("https://img.icons8.com/color/50/000000/google-logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 35px;
+  height: 100%;
+  width: 20%;
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+.content__submit--line {
+  width: 10%;
+  height: 1px;
+  background-color: black;
+  margin-bottom: 12px;
+}
+
+.content__submit > p,
+.content__footer p {
+  font-weight: 400;
+  width: 30vh;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.content__footer p {
+  font-size: 13px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+@media screen and (max-width: 800px) {
+  .loginContainer {
+    margin: 0px 20px;
+  }
+
+  .content__input--loginForm {
+    align-items: center;
+  }
+
+  .content__submit {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .content__footer {
+    margin-top: 100px;
+  }
+}
+.content__input--loginForm > h1 {
+  color: white;
+  margin-bottom: 70px;
+  text-align: center;
+}
+@media screen and (min-width: 801px) {
+  .loginContainer__content {
+    margin-top: 7%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: flex;
+  
+    position: relative;
+    left: 35%;
+    width: 30vw;
+    height: 470px;
+    border: 0.3px solid #cfdbd5;
+  }
+
+  .content__loginInputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30vw;
+    height: 100%;
+    transform: translate(0, 5%);
+    margin-left: 25px;
+  }
+
+  .content__submit {
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .content__footer {
+    width: 90%;
+  }
+}
+
+.items {
+  width: 17vw;
+  margin: 0;
+}
+.content__submit span {
+  color: #ba181b;
+  margin-left: 10px;
+}
+ */

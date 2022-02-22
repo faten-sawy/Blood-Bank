@@ -1,0 +1,42 @@
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+.achievement {
+  /* height: 60vh; */
+  height: 100vh;
+  width: 100vw;
+}
+.achievement .overlay {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  color: white;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+  /*  opacity: 0.8; */
+}
+
+.overlay h2 {
+  text-decoration: underline;
+  font-size: 4rem;
+  margin-top: 18%;
+}
+.overlay h1 {
+  font-size: 6rem;
+  font-family: "El Messiri", sans-serif;
+}
+.overlay p {
+  font-size: 1.5rem;
+}
+.overlay .numbers {
+  font-size: 4rem;
+}
+@media only screen and (max-width: 768px) {
+  .achievement {
+    height: 100vh;
+  }
+}

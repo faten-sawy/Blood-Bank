@@ -1,0 +1,46 @@
+.chat-card{
+    /* background-color: teal; */
+    margin-bottom: 12px;
+    height: 15vh;
+    margin-left: 12px;
+    margin-right: 2px;
+    margin-top: 12px;
+    display: flex;
+    border-bottom: 1px solid white;
+    align-items: center;
+    cursor: pointer;
+}
+.chatImg{
+    width: 7vw;
+    height: 10vh;
+    border-radius: 50%;
+
+}
+.chat-name{
+    min-width:30%;
+    width:auto;
+    margin-left: 0;
+    padding-left: 0;
+    position:relative;
+    top: -6px;
+    left: -2px;
+    margin-bottom: 0;
+    
+}
+.chat-text{
+   width: 80%;
+   position: relative;
+   top: -2px;
+   color: gray;
+   margin-right: 0;
+   padding-left: 0
+}
+.chat-auth{
+    position: relative;
+    top: -2px;
+    left: -10px;
+    color: gray;
+    width: 30px
+    
+
+}

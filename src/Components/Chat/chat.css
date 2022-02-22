@@ -1,0 +1,38 @@
+.fake-container{
+    width: 100vw;
+    min-height: 100vh;
+    background-color: white;
+    height: auto;
+    
+}
+
+.real-container{
+    /* margin-top: 8%; */
+    
+    min-height: 100vh;
+    height: auto;
+    margin: 0px;
+    margin-left:4%;
+    margin-top: 5%;
+}
+
+.chat-people{
+    background-color: #F3F2EF;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border: 1px solid white
+}
+.chat-people .chat-head{
+    margin-top: 5%;
+    margin-left: 5%;
+    border-bottom: 1px solid white ;
+    padding-bottom: 10px;
+
+}
+.chat-messege{
+    background-color: #F3F2EF;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border: 1px solid white
+
+}

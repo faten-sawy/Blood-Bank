@@ -1,0 +1,15 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.bloodBank {
+  background: url(https://realtorsusieknowspdx.files.wordpress.com/2021/01/blog-cover-2.png)
+    no-repeat center center fixed;
+  width: 100vw;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: block;
+  /*  overflow: hidden; */
+}
